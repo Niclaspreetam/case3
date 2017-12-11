@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cafe Jorden- Forside</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe Jorden tilbyder en international menu, med for eksempel mexicansk mad, burger, seafood.
+Desuden tibydes der også drinks og andre lækre forfriskninger.">
+    <script src="https://use.fontawesome.com/8be1995b9f.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="css/sss.min.js"></script>
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+
+    <script>
+        jQuery(function($) {
+            $('.slider').sss();
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/logo3201.png" alt="Cafe jorden logo"></a>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a id="menuhide">MENU</a>
+                <a href="menukort.html">MENUKORT</a>
+                <a href="om-os.html">OM OS</a>
+                <a href="galleri.html">GALLERI</a>
+                <a href="kontakt-os.html">KONTAKT</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+
+            </script>
+        </div>
+        <div class="slider">
+            <a href="galleri.html"><img src="images/slideshow/slide_4.jpg" alt="Den udendørs front af indgangen på Cafe Jorden"></a>
+            <a href="galleri.html"><img src="images/slideshow/slide_2.jpg" alt="Behagelige sidderpladser i et rustikt område på stueetagen på Cafe Jorden" ></a>
+            <a href="galleri.html"><img src="images/slideshow/slide_3.jpg" alt="Behagelige sidderpladser i et rustikt område på første sal på Cafe Jorden" ></a>
+
+        </div>
+
+        <h1>Velkommen til Cafe Jorden</h1>
+        <p> Cafeen ligger i det gamle Latinerkvarter i Aarhus. Cafe Jorden tilbyder en international menu, med for eksempel mexicansk mad, burger, seafood.<br> Desuden tibydes der også drinks og andre lækre forfriskninger.</p>
+
+        <div id="footer">
+            <div class="flex-footer">
+                <div id="hide" class="footer-item"> <b>KONTAKT OS</b><br>
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp;&nbsp;Badstuengade 3, Aarhus C</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+45 25 22 12 10</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;info@cafejorden.dk</p>
+                </div>
+                <div id="hide" class="footer-item">
+                    <b>ÅBNINGSTIDER</b><br><br>
+                    <table>
+                        <tr>
+                            <td>Mandag - Torsdag</td>
+                            <td>09:00 - 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td>09:00 - 00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lørdag</td>
+                            <td>09:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Søndag</td>
+                            <td>10:00 - 23:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-item"><b>FØLG OS</b><br><br>
+                    <a href="https://www.facebook.com/cafejorden/" target="_blank"><img src="images/facebook1.png" class="socialicon" alt="facebook icon"></a>&nbsp;
+                    <a href="https://www.instagram.com/explore/locations/542693/cafe-jorden/?hl=da" target="_blank"><img src="images/instagram1.png" alt="instagram icon" class="socialicon"></a>&nbsp;
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" class="socialicon" alt="twitter icon"></a>&nbsp;
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

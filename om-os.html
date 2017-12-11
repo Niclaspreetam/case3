@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>New Project</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="På denne side kan du læse om vores historie.">
+    <script src="https://use.fontawesome.com/8be1995b9f.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="css/sss.min.js"></script>
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+    <script>
+        jQuery(function($) {
+            $('.slider').sss();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/logo320.png" alt="cafe jorden logo"></a>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a id="menuhide" href="#.html">MENU</a>
+                <a href="menukort.html">MENUKORT</a>
+                <a href="om-os.html">OM OS</a>
+                <a href="galleri.html">GALLERI</a>
+                <a href="kontakt-os.html">KONTAKT</a>
+
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+        </div>
+
+        <h1> OM OS</h1>
+        <div id="about-flex-container"><img src="images/bartender.jpg" height="60%" width="60%" alt="personale">
+
+            <div id="about-flex-item">
+                <p>Cafe Jorden er en af de ældste cafeer i Aarhus.</p>
+                <p> Cafeen startede i 1985, da de første cafeer begyndte at dukke op i Danmark.</p>
+                <p> Da Cafe Jorden skulle lave en cafe, ville de opkalde den efter den berømte maler Asger Jorn. Det ville Jorn familien dog ikke gå med til, så de kaldte den Cafe Jorden istedet, da Jorden på Aarhusiansk bliver udtalt som Jorn.</p>
+                <p> Cafeen blir styret af cafebestyren Amida, der har været med fra begyndelsen og der serveres både morgenmad, brunch og aftensmad på stedet.</p>
+                <p>Tag på Jorden hvis du trænger til en drink en hverdags aften eller som opvarmning inden en bytur. Stedet har en varm og hyggelig stemning og der plejer som regel at være godt fyldt.</p>
+                <p>Du kan også sidde udenfor ved cafeen. Når det er koldt, bliver der tændt for gaslamperne og delt tæpper ud, så man kan i princippet sidde udenfor året rundt. </p>
+                <p>Aldersgrænsen efter kl. 22 er 18 år. I weekenderne skal du være 20 år for at komme ind.</p>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="flex-footer">
+                <div id="hide" class="footer-item"> <b>KONTAKT OS</b><br>
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp;&nbsp;Badstuengade 3, Aarhus C</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+45 25 22 12 10</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;info@cafejorden.dk</p>
+                </div>
+                <div id="hide" class="footer-item">
+                    <b>ÅBNINGSTIDER</b><br><br>
+                    <table>
+                        <tr>
+                            <td>Mandag - Torsdag</td>
+                            <td>09:00 - 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td>09:00 - 00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lørdag</td>
+                            <td>09:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Søndag</td>
+                            <td>10:00 - 23:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-item"><b>FØLG OS</b><br><br>
+                    <a href="https://www.facebook.com/cafejorden/" target="_blank"><img src="images/facebook1.png" class="socialicon" alt="facebook icon"></a>&nbsp;
+                    <a href="https://www.instagram.com/explore/locations/542693/cafe-jorden/?hl=da" target="_blank"><img src="images/instagram1.png" alt="instagram icon" class="socialicon"></a>&nbsp;
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" class="socialicon" alt="twitter icon"></a>&nbsp;
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+   
+
+</html>

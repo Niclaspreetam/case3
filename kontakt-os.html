@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cafe Jorden - Kontakt os</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Her kan du skrive til os, finde vores adresse, telefon, e-mail og find os på google maps.">
+    <script src="https://use.fontawesome.com/8be1995b9f.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="css/sss.min.js"></script>
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+    <script>
+        jQuery(function($) {
+            $('.slider').sss();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/logo320.png" alt="cafe jorden logo"></a>
+            </div>
+            <nav class="topnav" id="myTopnav">
+                <a id="menuhide" href="#.html">MENU</a>
+                <a href="menukort.html">MENUKORT</a>
+                <a href="om-os.html">OM OS</a>
+                <a href="galleri.html">GALLERI</a>
+                <a href="kontakt-os.html">KONTAKT</a>
+
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+
+        </div>
+        <h1> KONTAKT OS</h1>
+        <div id="contact-flex-container">
+            <div id="contact-flex-item">
+                <form id="contact" method="post" action="">
+                    <h3> Har du nogle spørgsmål? </h3>
+                    <div class="line">
+                        <label for="name">Navn: </label>
+                        <textarea name="name" id="name"></textarea>
+                    </div>
+
+                    <div class="line">
+                        <label for="email">E-mail: </label>
+                        <textarea name="email" id="email"></textarea>
+                    </div>
+
+                    <div class="line">
+                        <label for="message">Besked: </label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div class="line">
+                        <input type="submit" name="submit" value="SEND" class="button">
+                    </div>
+                </form>
+            </div>
+            <div id="contact-flex-item">
+                <h3> Adresse </h3>
+                <a target="_blank" href="https://goo.gl/maps/MPNcC7ahgHK2">
+                    <p>Badstuengade 3, Aarhus C</p>
+                </a>
+                <p>+45 25 22 12 10</p>
+                <p>info@cafejorden.dk</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1110.957127057589!2d10.203956664118037!3d56.15858714589088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f96a1fac611%3A0x2ea210b0af97cb0a!2sCaf%C3%A9+Jorden!5e0!3m2!1sda!2sdk!4v1511263831169" class="gmap" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <div id="footer">
+            <div class="flex-footer">
+                <div id="hide" class="footer-item"> <b>KONTAKT OS</b><br>
+                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp;&nbsp;Badstuengade 3, Aarhus C</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+45 25 22 12 10</p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;info@cafejorden.dk</p>
+                </div>
+                <div id="hide" class="footer-item">
+                    <b>ÅBNINGSTIDER</b><br><br>
+                    <table>
+                        <tr>
+                            <td>Mandag - Torsdag</td>
+                            <td>09:00 - 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td>09:00 - 00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lørdag</td>
+                            <td>09:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Søndag</td>
+                            <td>10:00 - 23:00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer-item"><b>FØLG OS</b><br><br>
+                    <a href="https://www.facebook.com/cafejorden/" target="_blank"><img src="images/facebook1.png" class="socialicon" alt="facebook icon"></a>&nbsp;
+                    <a href="https://www.instagram.com/explore/locations/542693/cafe-jorden/?hl=da" target="_blank"><img src="images/instagram1.png" alt="instagram icon" class="socialicon"></a>&nbsp;
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter1.png" class="socialicon" alt="twitter icon"></a>&nbsp;
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>
